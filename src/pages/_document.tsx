@@ -16,16 +16,16 @@ export default function Document() {
 
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="https://fetcch.xyz" />
         <meta property="og:title" content="Fetcch - Pull Payments Layer" />
         <meta property="og:description" content="By enabling wallets and applications to send chain-agnostic transaction requests directly to the user's endpoint" />
-        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="og:image" content="/tx-request.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="https://fetcch.xyz" />
         <meta property="twitter:title" content="Fetcch - Pull Payments Layer" />
         <meta property="twitter:description" content="By enabling wallets and applications to send chain-agnostic transaction requests directly to the user's endpoint" />
-        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="twitter:image" content="/tx-request.png" />
       </Head>
       <body>
         <Main />
