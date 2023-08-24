@@ -19,7 +19,7 @@ export default function Third() {
                     <span className={cormorant.className}>Integrate</span> <span className="text-gray-400">Pull Payments Layer?</span>
                 </h1>
 				<p
-					className={`text-xl text-center w-2/3 ${cormorantLight.className}`}
+					className={`text-gray-400 text-md md:text-xl text-center w-full md:w-2/3 ${inter.className}`}
 				>
 					It will help your wallet or application to make your
 					experience smoother by enabling you to pull instead of push

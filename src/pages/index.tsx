@@ -17,7 +17,7 @@ const cormorantLight = Cormorant_Garamond({
 export default function Index() {
 	return (
 		<main
-			className={`flex min-h-screen flex-col items-center justify-between px-24 pt-24 ${inter.className}`}
+			className={`flex min-h-screen flex-col items-center justify-between px-12 pt-12 md:px-24 md:pt-24 ${inter.className}`}
 		>
 			<Home />
             <Second />

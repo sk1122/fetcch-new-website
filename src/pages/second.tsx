@@ -13,10 +13,10 @@ export default function Second() {
 			className={`flex min-h-screen flex-col items-center justify-center space-y-20 ${inter.className}`}
 		>
             <div className="w-full space-y-8 flex flex-col justify-center items-center">
-                <h1 className={`text-6xl ${cormorantLight.className}`}>
+                <h1 className={`md:text-left text-center text-6xl ${cormorantLight.className}`}>
                     <span className={cormorant.className}>What is</span> <span className="text-gray-400">Pull Payments Layer?</span>
                 </h1>
-                <p className={`${inter.className} text-md text-center w-1/2 text-gray-300`}>
+                <p className={`${inter.className} text-sm md:text-lg text-center w-full md:w-1/2 text-gray-400`}>
                     Instead of the traditional approach in blockchain where the sender initiates the transaction, with Pull Payments, the tables are turned. Imagine you've availed a service and instead of sending the money directly, the service provider sends you a detailed payment request. The receiver sets up this request, pre-filled with all transaction specifics, and dispatches it to the sender’s wallet, functioning much like a straightforward notification. 
 
                     When the sender spots this notification in their wallet, they can conveniently open it, review the outlined details, and with a quick confirmation, approve the payment. What’s fascinating is the way the payment is then processed. The system pulls the mentioned amount from the sender’s account, but it’s done with the the sender’s authority.
