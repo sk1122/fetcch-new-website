@@ -6,6 +6,7 @@ import Second from "./second";
 import Third from "./third";
 import Middle from "./middle";
 import Script from "next/script";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const cormorant = Cormorant_Garamond({ weight: "600", subsets: ["latin"] });
@@ -19,6 +20,9 @@ export default function Index() {
 		<main
 			className={`flex min-h-screen flex-col items-center justify-between px-12 pt-12 md:px-24 md:pt-24 ${inter.className}`}
 		>
+			<Head>
+				<title>Fetcch - Pull Payments Layer</title>
+			</Head>
 			<Home />
             <Second />
             <Middle />

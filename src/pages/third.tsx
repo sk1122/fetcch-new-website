@@ -16,7 +16,7 @@ export default function Third() {
 		>
 			<div className="w-full h-1/3 flex flex-col justify-center items-center space-y-8">
             <h1 className={`text-8xl ${cormorant.className}`}>
-                    <span className={cormorant.className}>Integrate</span> <span className="text-gray-400">Pull Payments Layer?</span>
+                    <span className={cormorant.className}>Enable</span> <span className="text-gray-400">Pull Payments Layer?</span> 
                 </h1>
 				<p
 					className={`text-gray-400 text-md md:text-xl text-center w-full md:w-2/3 ${inter.className}`}
